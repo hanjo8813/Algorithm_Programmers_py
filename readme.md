@@ -4,6 +4,6 @@
 
 <br>
 
-> ### 목차
+> ### 링크
 - <a href="\review">리뷰 보기</a>
 - <a href="\pyCode">코드 보기</a>
