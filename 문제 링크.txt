@@ -1,0 +1,85 @@
+1-1 완주하지 못한 선수
+https://programmers.co.kr/learn/courses/30/lessons/42576
+1-2 문자열 압축
+https://programmers.co.kr/learn/courses/30/lessons/60057
+
+2-1 전화번호
+https://programmers.co.kr/learn/courses/30/lessons/42577
+2-2 주식가격
+https://programmers.co.kr/learn/courses/30/lessons/42584
+
+3-1 K번째
+https://programmers.co.kr/learn/courses/30/lessons/42748
+3-2 가장 큰수
+https://programmers.co.kr/learn/courses/30/lessons/42746
+3-3 체육복
+https://programmers.co.kr/learn/courses/30/lessons/42862
+
+4-1 위장 
+https://programmers.co.kr/learn/courses/30/lessons/42578
+4-2 다리를 지나는 트럭 
+https://programmers.co.kr/learn/courses/30/lessons/42583
+
+5-1 H 인덱스 
+https://programmers.co.kr/learn/courses/30/lessons/42747
+5-2 기능 개발 
+https://programmers.co.kr/learn/courses/30/lessons/42586
+
+6-1 더맵게 
+https://programmers.co.kr/learn/courses/30/lessons/42626
+6-2 모의고사 
+https://programmers.co.kr/learn/courses/30/lessons/42840
+
+7-1 큰수 만들기 
+https://programmers.co.kr/learn/courses/30/lessons/42883
+7-2 소수찾기 
+https://programmers.co.kr/learn/courses/30/lessons/42839
+
+8-1 타겟 넘버 
+https://programmers.co.kr/learn/courses/30/lessons/43165
+8-2 조이스틱 
+https://programmers.co.kr/learn/courses/30/lessons/42860
+
+9-1 네트워크 
+https://programmers.co.kr/learn/courses/30/lessons/43162
+9-2 카펫 
+https://programmers.co.kr/learn/courses/30/lessons/42842
+
+10-1 구명보트 
+https://programmers.co.kr/learn/courses/30/lessons/42885
+10-2 단어변환 
+https://programmers.co.kr/learn/courses/30/lessons/43163
+
+11-1 오픈채팅방 
+https://programmers.co.kr/learn/courses/30/lessons/42888
+11-2 N으로표현 
+https://programmers.co.kr/learn/courses/30/lessons/42895
+
+12-1 DP(2) : 정수 삼각형
+https://programmers.co.kr/learn/courses/30/lessons/43105
+12-2 카카오(2) : 괄호변환
+https://programmers.co.kr/learn/courses/30/lessons/60058
+
+13-1 힙(3) : 이중우선순위큐
+https://programmers.co.kr/learn/courses/30/lessons/42628
+13-2 카카오(2) : 후보키
+https://programmers.co.kr/learn/courses/30/lessons/42890
+
+14-1 이분탐색(3) : 입국심사
+https://programmers.co.kr/learn/courses/30/lessons/43238
+14-2 카카오(2) : 튜플
+https://programmers.co.kr/learn/courses/30/lessons/64065
+
+15-1 그래프(3) : 가장 먼 노드
+https://programmers.co.kr/learn/courses/30/lessons/49189
+15-2 S/W Coding(2) : 멀쩡한 사각형
+https://programmers.co.kr/learn/courses/30/lessons/62048
+
+16-1 해시(3) : 베스트앨범
+https://programmers.co.kr/learn/courses/30/lessons/42579
+16-2 카카오(2): 뉴스 클러스터링
+https://programmers.co.kr/learn/courses/30/lessons/17677
+
+17-1 DFS/BFS(3) : 여행경로
+https://programmers.co.kr/learn/courses/30/lessons/43164
+17-2

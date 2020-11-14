@@ -8,4 +8,5 @@ def solution(numbers):
         str_per_list.append(int(str_per))
     answer = max(str_per_list)
     return answer
-# 오답임. 다시풀어야됨
+
+# 효율성 초과됨. -> 다시풀어야됨
