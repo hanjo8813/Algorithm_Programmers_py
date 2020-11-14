@@ -1,4 +1,4 @@
-def to_Dic_cnt(str_):
+def to_piece(str_):
     # 문자열 대문자 -> 소문자
     str_ = str_.lower()
     piece = []
@@ -11,8 +11,8 @@ def to_Dic_cnt(str_):
     return piece
 
 def solution(str1, str2):
-    piece1 = to_Dic_cnt(str1)
-    piece2 = to_Dic_cnt(str2)
+    piece1 = to_piece(str1)
+    piece2 = to_piece(str2)
     union = 0
     i_s = 0
     # 1과 2의 중복을 제거한 합집합 원소를 순회
