@@ -82,4 +82,5 @@ https://programmers.co.kr/learn/courses/30/lessons/17677
 
 17-1 DFS/BFS(3) : 여행경로
 https://programmers.co.kr/learn/courses/30/lessons/43164
-17-2
+17-2 S/W Coding(2) : 소수만들기
+https://programmers.co.kr/learn/courses/30/lessons/12977
