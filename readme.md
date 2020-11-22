@@ -6,7 +6,8 @@
 
 > ### 링크
 - <a href="\review">리뷰 보기</a>
-- <a href="\pyCode">코드 보기</a>
+- <a href="\pyCode">파이썬 코드 보기</a>
+- <a href="\javaCode">자바 코드 보기</a>
 
 > ### 업데이트
 - 주 1회 (회차당 파이썬-2, 자바-1)
