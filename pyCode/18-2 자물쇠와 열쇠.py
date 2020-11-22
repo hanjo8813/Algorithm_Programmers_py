@@ -5,6 +5,14 @@ def rotate(key, m):
         for i in range(m-1, -1, -1):
             new[j].append(key[i][j])
     return new
+    
+'''    
+def rotate(key):
+    r_key = []
+    for k in list(zip(*key)):
+        r_key.append(list(reversed(k)))
+    return r_key
+'''
 
 def solution(key, lock):
     m = len(key)
