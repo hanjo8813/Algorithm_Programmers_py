@@ -39,12 +39,16 @@
 ---
 
 ## 외부 함수
+> ### from collections import deque
+> - `deque` : 컬렉션의 내장함수. 리스트를 큐의 형태로 바꿀때 사용한다.
+>    - `popleft()` : 큐에서 가장 왼쪽 값 pop
+>    - `append, remove, extend` : 기존 리스트와 동일
 
 > ### from collections import Counter
-- `Conter(리스트)` : 입력된 리스트의 원소들의 등장횟수를 구해서 원소별 등장횟수 딕셔너리를 반환해준다. ex) {a : 5}
+> - `Conter(리스트)` : 입력된 리스트의 원소들의 등장횟수를 구해서 원소별 등장횟수 딕셔너리를 반환해준다. ex) {a : 5}
 
 > ### from collections import defaultdict
-- `= defaultdict(기본값)` : 입력값에 자료형이나 람다 함수를 넣어 기본값을 정의할 수 있는 딕셔너리.
+>- `= defaultdict(기본값)` : 입력값에 자료형이나 람다 함수를 넣어 기본값을 정의할 수 있는 딕셔너리.
 
 > ### from itertools import combinations/permutations
 - `combinations(대상리스트, 원소 수)` : 입력된 원소 수에 해당하는 조합을 구해준다. 다만 반환형이 리스트가 아니므로 리스트로 변환해줘야함.
@@ -56,10 +60,7 @@
 > ### import copy
 - `copy.deepcopy(복사할 리스트)` : 2차원 리스트는 기존의 .copy()함수로 복사가 되지 않는다. 따라서 2차원 리스트르 복사하려면 왼쪽의 형식에 복사하고싶은 리스트를 입력하면 복사된 리스트가 반환된다.
 
-> ### from collections import deque
-- `deque` : 컬렉션의 내장함수. 리스트를 큐의 형태로 바꿀때 사용한다.
-    - `popleft()` : 큐에서 가장 왼쪽 값 pop
-    - `append, remove, extend` : 기존 리스트와 동일
+
 
 
 
