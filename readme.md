@@ -7,8 +7,8 @@
 > ### 링크
 - <a href="\review">리뷰 보기</a>
 - <a href="\pyCode">파이썬 코드 보기</a>
-- <a href="\concept\파이썬정리.md">파이썬 정리</a>
 - <a href="\javaCode">자바 코드 보기</a>
+- <a href="\concept\파이썬정리.md">파이썬 정리</a>
 - <a href="\concept\파이썬정리.md">자바 정리</a>
 
 > ### 업데이트
