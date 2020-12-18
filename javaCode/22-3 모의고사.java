@@ -35,7 +35,7 @@ public class Solution {
         				}
         				).get().getValue();
         
-        ArrayList<Integer> answer = new ArrayList<Integer>();
+        List<Integer> answer = new ArrayList<Integer>();
         for(Map.Entry<Integer, Integer> e : num.entrySet())     // entrySet의 리턴값은 Map.Entry 였다!!!!!!!!!!
         {
         	if(e.getValue() == max_v)
