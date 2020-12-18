@@ -97,16 +97,14 @@ https://programmers.co.kr/learn/courses/30/lessons/17680
 19-3 Java 해시(1) : 완주하지 못한선수
 https://programmers.co.kr/learn/courses/30/lessons/42576
 
-20-1 pass
-20-2 카카오(2) : 압축
+20-1 카카오(2) : 압축
 https://programmers.co.kr/learn/courses/30/lessons/17684
-20-3 Java 정렬(1) : K번째수
+20-2 Java 정렬(1) : K번째수
 https://programmers.co.kr/learn/courses/30/lessons/42748
 
-21-1 pass
-21-2 카카오(2) : 방금그곡
+21-1 카카오(2) : 방금그곡
 https://programmers.co.kr/learn/courses/30/lessons/17683
-21-3 Java 스택/큐(2) : 주식가격
+21-2 Java 스택/큐(2) : 주식가격
 https://programmers.co.kr/learn/courses/30/lessons/42584
 
 22-1 탐욕법(3) : 단속카메라
