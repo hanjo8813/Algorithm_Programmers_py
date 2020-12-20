@@ -4,7 +4,7 @@ def solution(files):
         # head
         for j in range(len(f)):
             # 처음으로 숫자가 등장할 경우
-            if str(f[j]).isdigit():
+            if f[j].isdigit():
                 # 첫 숫자 등장한 인덱스를 저장
                 start = j
                 break
@@ -15,7 +15,7 @@ def solution(files):
             if k == len(f)-1:
                 break
             # number 영역에서 첫 문자가 등장햇을 때 인덱스를 저장
-            if str(f[k]).isdigit()==0:
+            if f[k].isdigit()==0:
                 end-=1
                 break
 
