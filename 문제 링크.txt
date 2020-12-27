@@ -121,6 +121,13 @@ https://programmers.co.kr/learn/courses/30/lessons/17687
 23-3 Java 힙(2) : 더 맵게
 https://programmers.co.kr/learn/courses/30/lessons/42626
 
+24-1 DP(3) : 등굣길
+https://programmers.co.kr/learn/courses/30/lessons/42898
+24-2 카카오(2) : 수식 최대화
+https://programmers.co.kr/learn/courses/30/lessons/67257
+24-3 Java 해시(2) : 전화번호 목록
+https://programmers.co.kr/learn/courses/30/parts/12077
 
-남은 카테고리 : DP(3,4) / 이분탐색(4) / 그래프(5)
-남은 카카오2단계 : 수식최대화
+
+남은 카테고리 : DP(4) / 이분탐색(4) / 그래프(5)
+남은 카카오2단계 : 없음..

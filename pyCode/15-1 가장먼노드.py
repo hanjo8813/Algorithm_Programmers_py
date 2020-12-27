@@ -30,3 +30,76 @@ edge = [[3, 6], [4, 3], [3, 2],
 [1, 3], [1, 2], [2, 4], [5, 2]]
 a = solution(n, edge)
 print(a)
+
+
+
+# DFS/효율성 초과 ----------------------------------------
+end_dic = {1:0}
+
+def DFS(start, depth, edge):
+    global end_dic
+    temp_edge = edge.copy()
+    for e in edge:
+        if e[0] == start:
+            temp_edge.remove(e)
+            if e[1] not in end_dic:
+                end_dic[e[1]] = depth
+            elif end_dic[e[1]] > depth:
+                end_dic[e[1]] = depth
+            DFS(e[1], depth+1, temp_edge)
+        elif e[1] == start:
+            temp_edge.remove(e)
+            if e[0] not in end_dic:
+                end_dic[e[0]] = depth
+            elif end_dic[e[0]] > depth:
+                end_dic[e[0]] = depth
+            DFS(e[0], depth+1, temp_edge)
+
+def solution1(n, edge):
+    DFS(1, 1, edge)
+    global end_dic
+    max_depth = max(end_dic.values())
+    answer = 0
+    for v in end_dic.values():
+        if v == max_depth :
+            answer+=1
+    return answer
+
+n = 6
+edge = [[3, 6], [4, 3], [3, 2], 
+[1, 3], [1, 2], [2, 4], [5, 2]]
+print(solution(n, edge))
+
+
+# 시행착오 ----------------------------------------
+
+from collections import deque
+def solution2(n, edge):
+    dic_v = {}
+    for i in range(1, n+1):
+        dic_v[i] = []
+        for e in edge:
+            if i in e:
+                dic_v[i].append(e)
+    dic_dis = {1:0}
+    queue = deque([1])
+
+    while queue:
+        q = queue.popleft()
+        dis = dic_dis[q]
+        vertex = dic_v[q]
+        for v in vertex:
+            #print(q, v, dic_dis)
+            next_v = None
+            if v[0] == q:
+                next_v = v[1]
+            elif v[1] == q:
+                next_v = v[0]
+            if next_v != None and (next_v not in dic_dis.keys()):
+                dic_v[next_v].remove(v)
+                dic_dis[next_v]=dis+1
+                queue.append(next_v)
+
+    dv = list(dic_dis.values())
+    answer = dv.count(max(dv))
+    return answer
