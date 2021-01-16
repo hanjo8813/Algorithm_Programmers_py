@@ -126,8 +126,15 @@ https://programmers.co.kr/learn/courses/30/lessons/42898
 24-2 카카오(2) : 수식 최대화
 https://programmers.co.kr/learn/courses/30/lessons/67257
 24-3 Java 해시(2) : 전화번호 목록
-https://programmers.co.kr/learn/courses/30/parts/12077
+https://programmers.co.kr/learn/courses/30/lessons/42577
+
+25-1 이분탐색(4) : 징검다리
+https://programmers.co.kr/learn/courses/30/lessons/43236
+25-2 S/W Coding(2) : 영어끝말잇기
+https://programmers.co.kr/learn/courses/30/lessons/12981
+25-3 Java 스택/큐(2) : 기능개발
+https://programmers.co.kr/learn/courses/30/lessons/42586
 
 
-남은 카테고리 : DP(4) / 이분탐색(4) / 그래프(5)
+남은 카테고리 : DP(4) / 그래프(5)
 남은 카카오2단계 : 없음..

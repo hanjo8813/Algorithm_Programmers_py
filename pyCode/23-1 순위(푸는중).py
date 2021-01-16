@@ -1,6 +1,5 @@
 from collections import deque
 count = [0]
-
 def DFS(i, a_list, is_visit, depth):
     depth+=1
     check=0
@@ -32,7 +31,7 @@ def solution(n, results):
     for i in range(n):
         DFS(i, a_list, is_visit, 0)
     global count
-    return count
+    return max(count)
 
 
 n = 5
