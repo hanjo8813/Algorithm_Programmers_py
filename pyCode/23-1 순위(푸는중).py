@@ -75,7 +75,6 @@ def solution2(n, results):
 
 
 
-
 def solution3(n, results):
     # 방향그래프의 정점당 진출/진입 간선
     out_list = [[] for _ in range(n)]
