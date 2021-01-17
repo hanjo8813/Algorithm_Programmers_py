@@ -135,6 +135,18 @@ https://programmers.co.kr/learn/courses/30/lessons/12981
 25-3 Java 스택/큐(2) : 기능개발
 https://programmers.co.kr/learn/courses/30/lessons/42586
 
+26-1 스택/큐(2) : 프린터
+https://programmers.co.kr/learn/courses/30/lessons/42587
+26-2 카카오(3) : 추석 트래픽
+https://programmers.co.kr/learn/courses/30/lessons/17676
+26-3 복습 해시(2) : 전화번호 목록
+https://programmers.co.kr/learn/courses/30/lessons/42577
+
+
+27-1 힙(3) : 디스크 컨트롤러
+https://programmers.co.kr/learn/courses/30/lessons/42627
+27-2 
+27-3 복습
+
 
 남은 카테고리 : DP(4) / 그래프(5)
-남은 카카오2단계 : 없음..
