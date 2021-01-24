@@ -139,8 +139,8 @@ https://programmers.co.kr/learn/courses/30/lessons/42586
 https://programmers.co.kr/learn/courses/30/lessons/42587
 26-2 카카오(3) : 추석 트래픽
 https://programmers.co.kr/learn/courses/30/lessons/17676
-26-3 복습 해시(2) : 전화번호 목록
-https://programmers.co.kr/learn/courses/30/lessons/42577
+26-3 복습 해시(2) : 위장
+https://programmers.co.kr/learn/courses/30/lessons/42578
 
 
 27-1 힙(3) : 디스크 컨트롤러
