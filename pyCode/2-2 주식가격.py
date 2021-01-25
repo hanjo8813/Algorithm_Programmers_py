@@ -12,6 +12,7 @@ def solution2(prices):
 # 효율성 159.46ms
 
 from collections import deque
+
 def solution(prices):
     prices = deque(prices)
     answer = []
