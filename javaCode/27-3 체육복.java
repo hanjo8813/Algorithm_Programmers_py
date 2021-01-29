@@ -3,8 +3,7 @@ package javaCode;
 import java.util.*;
 
 class Solution {
-
-    // 그냥 파이썬을 자바화 시킴..;
+    // 파이썬 코드와 동일..
     public static int solution(int n, int[] lost, int[] reserve) {
     	for(int i=0; i<lost.length; i++) {
     		for(int j=0; j<reserve.length; j++) {
