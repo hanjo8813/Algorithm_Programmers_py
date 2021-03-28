@@ -28,3 +28,8 @@ https://programmers.co.kr/learn/courses/30/lessons/42839
 https://programmers.co.kr/learn/courses/30/lessons/42862
 5-2 탐욕법(2) 조이스틱
 https://programmers.co.kr/learn/courses/30/lessons/42860
+
+6-1 해시(2) 위장
+https://programmers.co.kr/learn/courses/30/lessons/42578
+6-2 해시(3) 베스트앨범
+https://programmers.co.kr/learn/courses/30/lessons/42579
