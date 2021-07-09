@@ -1,4 +1,4 @@
-package javaCode;
+package 완전탐색_1_모의고사;
 
 import java.util.*;
 
@@ -36,7 +36,7 @@ public class Solution {
         				).get().getValue();
         
         List<Integer> answer = new ArrayList<Integer>();
-        for(Map.Entry<Integer, Integer> e : num.entrySet())     // entrySet의 리턴값은 Map.Entry 였다!!!!!!!!!!
+        for(Map.Entry<Integer, Integer> e : num.entrySet())
         {
         	if(e.getValue() == max_v)
         		answer.add(e.getKey());

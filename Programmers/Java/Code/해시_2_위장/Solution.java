@@ -1,4 +1,4 @@
-package javaCode;
+package 해시_2_위장;
 
 import java.util.*;
 import static java.util.stream.Collectors.*;
@@ -21,7 +21,6 @@ class Solution {
 		return answer;
 	 }
 	
-	// stream 참고
     static public int solution2(String[][] clothes) {
 		return Arrays.stream(clothes)
                 .collect(

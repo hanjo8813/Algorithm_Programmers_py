@@ -1,8 +1,7 @@
-package javaCode;
+package 정렬_1_K번째수;
 
 import java.util.*;
 public class Solution {
-	// 1번째 풀이
 	public static int[] solution(int[] array, int[][] commands) {
 		int[] answer = new int[commands.length];
 		int index=0;
@@ -22,7 +21,6 @@ public class Solution {
         }
         return answer;
     }
-	// 2번째 풀이
 	public static int[] solution2(int[] array, int[][] commands) {
 		int[] answer = new int[commands.length];
 		int index=0;

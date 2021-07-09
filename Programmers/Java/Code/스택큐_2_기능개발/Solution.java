@@ -1,13 +1,11 @@
-package javaCode;
+package 스택큐_2_기능개발;
 
 import java.util.*;
 
 class Solution {
 	public static ArrayList<Integer> solution(int[] progresses, int[] speeds) {
-		// ArrayList<Integer> pro = new ArrayList<Integer>(Arrays.stream(progresses).boxed().collect(Collectors.toList()));
 		ArrayList<Integer> pro = new ArrayList<>();
 		ArrayList<Integer> sp = new ArrayList<>();
-		// AL로 변환
 		for(int i=0; i<progresses.length; i++)
 		{
 			pro.add(progresses[i]);
@@ -23,7 +21,6 @@ class Solution {
 			while(pro.size() != 0) {
 				if(pro.get(0)<100)
 					break;
-                // Queue처럼 맨앞의 값을 poll
 				pro.remove(0);
 				sp.remove(0);
 				cnt++;
