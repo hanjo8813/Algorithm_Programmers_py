@@ -68,6 +68,3 @@ def solution(tickets):
     answer = route_list[0]
     return answer
 ```
-
-> ### 코드 설명
-<h4><a href="../pyCode/17-1 여행경로.py">이곳을 누르면 설명이 추가된 코드로 이동합니다.</a></h4>

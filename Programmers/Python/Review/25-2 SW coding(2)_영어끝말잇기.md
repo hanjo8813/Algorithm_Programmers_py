@@ -32,8 +32,3 @@ def solution(n, words):
             break
     return answer
 ```
-
-<br>
-
-> ### 코드 설명
-<h4><a href="../pyCode/25-2 영어끝말잇기.py">이곳을 누르면 설명이 추가된 코드로 이동합니다.</a></h4>

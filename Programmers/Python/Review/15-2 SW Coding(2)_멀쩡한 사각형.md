@@ -43,6 +43,3 @@ def solution(w,h):
     answer = w*h - g*(gh + gw -1)
     return answer
 ```
-
-> ### 코드 설명
-<h4><a href="../pyCode/15-2 멀쩡한 사각형.py">이곳을 누르면 설명이 추가된 코드로 이동합니다.</a></h4>
