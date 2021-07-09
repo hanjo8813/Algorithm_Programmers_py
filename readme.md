@@ -5,6 +5,8 @@
 <br>
 
 ## 링크
-- <a href="/Programmers">프로그래머스 문제풀이</a>
-- <a href="/Concept/파이썬정리.md">Python 문법 정리</a>
-- <a href="/Concept/자바정리.md">Java 문법 정리</a>
+
+- [프로그래머스](/Programmers)
+- [Python 문법 정리](/Concept/파이썬정리.md)
+- [Java 문법 정리](/Concept/자바정리.md)
+
