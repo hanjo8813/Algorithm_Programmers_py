@@ -4,24 +4,17 @@ import java.util.*;
 
 public class Solution {
 	
-	public static ArrayList<int[]> convertArrayToList(int[][] wires){
-		ArrayList<int[]> new_list = new ArrayList<>();
-		for(int[] wire : wires) {
-			new_list.add(wire);
-		}
-		return new_list;
-	}
-	
 	public static int DFS(int vertex, ArrayList<int[]> wires_list) {
-		
 		int count = 1;
 		
+		// 리스트 복사
 		ArrayList<int[]> copy_list = new ArrayList<>();
 		for(int[] wire : wires_list) {
 			copy_list.add(wire);
 		}
 		
 		for(int[] wire : wires_list) {
+			// 연결 정점이 존재한다면 재귀로 DFS
 			if(vertex == wire[0]) {
 				copy_list.remove(wire);
 				count += DFS(wire[1], copy_list);
@@ -31,7 +24,6 @@ public class Solution {
 				count += DFS(wire[0], copy_list);
 			}
 		}
-		
 		return count;
 	}
 	
@@ -40,19 +32,21 @@ public class Solution {
 		ArrayList<Integer> diff_list = new ArrayList<>();
 		
 		for(int i=0; i<wires.length; i++) {
-			// 시작 정점
+			// 시작 정점 저장
 			int left_v = wires[i][0];
 			int right_v = wires[i][1];
 			
-			// 간선 리스트 생성
+			// 차단 간선을 뺀 간선 리스트 생성
 			ArrayList<int[]> wires_list = new ArrayList<>();
 			for(int[] wire : wires) {
 				wires_list.add(wire);
 			}
 			wires_list.remove(i);
 			
+			// 깊이우선탐색 후 각 트리의 정점 숫자 구하기
 			int num_left = DFS(left_v, wires_list);
 			int num_right = DFS(right_v, wires_list);
+			// 리스트에 정점 차이값 저장
 			diff_list.add(Math.abs(num_left - num_right));
 		}
 		
