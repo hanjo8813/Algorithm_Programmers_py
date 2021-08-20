@@ -4,9 +4,4 @@
 
 <br>
 
-## 링크
-
-- [프로그래머스](/Programmers)
-- [Python 문법 정리](/Memo/파이썬정리.md)
-- [Java 문법 정리](/Memo/자바정리.md)
 
