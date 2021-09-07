@@ -6,14 +6,13 @@ import java.util.*;
 
 class Solution {
     public static char slowestKey(int[] releaseTimes, String keysPressed) {
-
         Map<Integer, Integer> durationMap = new HashMap<>();
         durationMap.put(0, releaseTimes[0]);
         for (int i = 1; i < releaseTimes.length; i++) {
             durationMap.put(i, releaseTimes[i] - releaseTimes[i - 1]);
         }
-        Integer maxDuration = Collections.max(durationMap.values());
 
+        Integer maxDuration = Collections.max(durationMap.values());
         char[] charKeys = keysPressed.toCharArray();
         List<Character> charList = new ArrayList<>();
         for (Map.Entry duration : durationMap.entrySet()) {
@@ -21,8 +20,7 @@ class Solution {
                 charList.add(charKeys[(int)duration.getKey()]);
             }
         }
-        Collections.sort(charList, Collections.reverseOrder());
-        return charList.get(0);
+        return Collections.max(charList);
     }
 
     public static void main(String[] args) {
