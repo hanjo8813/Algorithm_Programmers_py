@@ -73,8 +73,8 @@ from itertools import combinations
 def solution(orders, course):
     combi_dict = defaultdict(int)
     for order in orders:
-        for i in range(2, len(order)+1):
-            for combi in combinations(sorted(order), i):
+        for num in course:
+            for combi in combinations(sorted(order), num):
                 combi_dict[''.join(combi)] += 1
     num_dict = defaultdict(list)
     answer = []
@@ -85,15 +85,11 @@ def solution(orders, course):
                 if max_count < count:
                     max_count = count
                 num_dict[num].append((combi,count)) 
-        print(num_dict)
-        exit()
         for combi, count in num_dict[num]:
             if count == max_count:
                 answer.append(combi)
     return sorted(answer)
     
-
-
 
 
 orders = ["ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"]
