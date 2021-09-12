@@ -65,9 +65,7 @@
 
 
 def solution(s):
-    length_list = []
-    if len(s):
-        return 1
+    min_length = len(s)
     for n in range(1, len(s)//2+1):
         count = 1
         result_str = ''
@@ -82,8 +80,8 @@ def solution(s):
                 else:
                     result_str += cur_str
                 count = 1
-        length_list.append(len(result_str))
-    return min(length_list)
+        min_length = min([min_length, len(result_str)])
+    return min_length
 
 
 s = "aabbaccc"
@@ -105,5 +103,5 @@ s = "xxxxxxxxxxyyy"
 print(solution(s), 5)
 
 s="a"
-print(solution(s), 5)
+print(solution(s), 1)
 
