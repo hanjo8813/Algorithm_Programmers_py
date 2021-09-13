@@ -1,4 +1,4 @@
-package 해시_3_베스트앨범;
+package prgrms.해시_3_베스트앨범;
 
 import java.util.*;
 import java.util.Map.Entry;

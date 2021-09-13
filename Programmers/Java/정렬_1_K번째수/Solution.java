@@ -1,4 +1,4 @@
-package 정렬_1_K번째수;
+package prgrms.정렬_1_K번째수;
 
 import java.util.*;
 public class Solution {

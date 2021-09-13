@@ -1,4 +1,4 @@
-package 힙_2_더맵게;
+package prgrms.힙_2_더맵게;
 
 import java.util.*;
 

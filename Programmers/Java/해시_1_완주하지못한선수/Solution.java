@@ -1,4 +1,4 @@
-package 해시_1_완주하지못한선수;
+package prgrms.해시_1_완주하지못한선수;
 
 import java.util.*;
 

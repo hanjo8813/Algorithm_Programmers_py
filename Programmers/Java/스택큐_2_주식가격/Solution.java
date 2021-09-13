@@ -1,4 +1,4 @@
-package 스택큐_2_주식가격;
+package prgrms.스택큐_2_주식가격;
 
 import java.util.*;
 

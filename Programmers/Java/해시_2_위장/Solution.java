@@ -1,4 +1,4 @@
-package 해시_2_위장;
+package prgrms.해시_2_위장;
 
 import java.util.*;
 import static java.util.stream.Collectors.*;

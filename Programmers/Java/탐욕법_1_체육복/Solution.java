@@ -1,4 +1,4 @@
-package 탐욕법_1_체육복;
+package prgrms.탐욕법_1_체육복;
 
 import java.util.*;
 

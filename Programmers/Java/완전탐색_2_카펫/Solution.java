@@ -1,4 +1,4 @@
-package 완전탐색_2_카펫;
+package prgrms.완전탐색_2_카펫;
 
 import java.util.*;
 

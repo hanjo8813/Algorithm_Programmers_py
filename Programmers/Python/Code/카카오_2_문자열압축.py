@@ -40,7 +40,7 @@
 #         if before_str == s[n:2*n]:
 #             flag = True
 #             count = 0
-        
+
 #         for i in range(n, len(s), n):
 #             cur_str = s[i:i+n]
 #             print(before_str, cur_str)
@@ -69,7 +69,7 @@ def solution(s):
     for n in range(1, len(s)//2+1):
         count = 1
         result_str = ''
-        for i in range(0, len(s), n): 
+        for i in range(0, len(s), n):
             cur_str = s[i:i+n]
             next_str = s[i+n:i+n+n]
             if cur_str == next_str:
@@ -84,24 +84,16 @@ def solution(s):
     return min_length
 
 
-s = "aabbaccc"
-print(solution(s), 7)
+test_case = [
+    ("aabbaccc", 7),
+    ("ababcdcdababcdcd", 9),
+    ("abcabcdede", 8),
+    ("abcabcabcabcdededededede", 14),
+    ("xababcdcdababcdcd", 17),
+    ("xxxxxxxxxxyyy", 5),
+    ("a", 1)
+]
 
-s = "ababcdcdababcdcd"
-print(solution(s), 9)
-
-s = "abcabcdede"
-print(solution(s), 8)
-
-s = "abcabcabcabcdededededede"
-print(solution(s), 14)
-
-s = "xababcdcdababcdcd"
-print(solution(s), 17)
-
-s = "xxxxxxxxxxyyy"
-print(solution(s), 5)
-
-s="a"
-print(solution(s), 1)
+for s, answer in test_case:
+    print(solution(s), answer)
 

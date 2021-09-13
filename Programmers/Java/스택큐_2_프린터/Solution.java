@@ -1,4 +1,4 @@
-package 스택큐_2_프린터;
+package prgrms.스택큐_2_프린터;
 
 import java.util.*;
 

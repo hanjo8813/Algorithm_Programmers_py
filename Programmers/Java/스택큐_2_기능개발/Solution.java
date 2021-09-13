@@ -1,4 +1,4 @@
-package 스택큐_2_기능개발;
+package prgrms.스택큐_2_기능개발;
 
 import java.util.*;
 
