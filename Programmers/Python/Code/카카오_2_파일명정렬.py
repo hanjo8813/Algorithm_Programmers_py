@@ -1,3 +1,28 @@
+# 한줄풀이
+# import re
+# def solution(files):
+#     return sorted(files, key=lambda file : (re.split('\d{1,5}', file.lower())[0] , int(re.findall('\d{1,5}', file)[0])))
+
+# 주석제거
+# def solution(files):
+#     s_files = []
+#     for f in files:
+#         for j in range(len(f)):
+#             if f[j].isdigit():
+#                 start = j
+#                 break
+#         for k in range(start, start+5):
+#             end = k+1
+#             if k == len(f)-1:
+#                 break
+#             if not f[k].isdigit():
+#                 end-=1
+#                 break
+#         s_files.append([f, f[:j].lower(), int(f[start:end])])
+#     s_files = sorted(s_files, key = lambda x : (x[1], x[2]))
+#     return [f[0] for f in s_files]
+
+
 def solution(files):
     s_files = []
     for f in files:
@@ -15,7 +40,7 @@ def solution(files):
             if k == len(f)-1:
                 break
             # number 영역에서 첫 문자가 등장햇을 때 인덱스를 저장
-            if f[k].isdigit()==0:
+            if not f[k].isdigit():
                 end-=1
                 break
 
@@ -27,14 +52,10 @@ def solution(files):
 
     # 정렬 기준 1번은 head, 2번은 number.
     s_files = sorted(s_files, key = lambda x : (x[1], x[2]))
-    answer=[]
-    for f in s_files:
-        answer.append(f[0])
-    return answer
+    return [f[0] for f in s_files]
 
 
     
-
 files = ['img000012345', 'img1.png','img2', 'IMG02', 'abc123defg123.jpg']
 print(solution(files))
 files = ['img12.png', 'img10.png', 'img02.png', 'img1.png', 'IMG01.GIF', 'img2.JPG']
