@@ -9,7 +9,7 @@ public class Solution {
         Map<String, Integer> strCount = new HashMap<>();
         for (int i = 0; i < str.length() - 1; i++) {
             String sub = str.substring(i, i + 2);
-            if(!Pattern.matches("^[a-zA-Z]*$", sub)){
+            if(!Pattern.matches("^[a-z]*$", sub)){
                 continue;
             }
             // merge(key, default-value, (원래v, default-value) -> 정의)
@@ -42,13 +42,11 @@ public class Solution {
                 }
             }
         }
-
-        float jacquard = 1;
+        int jacquard = 65536;
         if(union != intersection){
-            jacquard = intersection/union;
+            jacquard *= intersection/union;
         }
-        // floor 리턴값은 double임
-        return (int)Math.floor(jacquard*65536);
+        return jacquard;
     }
 
     public static void main(String[] args) {
