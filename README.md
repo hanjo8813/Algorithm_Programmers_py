@@ -1,7 +1,6 @@
 # 코딩 테스트 대비
 
-### 알고리즘 문제를 파이썬과 자바로 풀고 정리하는 저장소입니다. 
+### Python + Java 둘다 써서 코테 풀이~
 
-<br>
-
-
+## 링크
+- [리뷰는 블로그에서](https://hanjo8813.github.io/categories/programmers)
