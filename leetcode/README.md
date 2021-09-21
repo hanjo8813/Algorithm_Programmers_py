@@ -1,1 +1,2 @@
-HI
+# Leetcode
+> https://leetcode.com/

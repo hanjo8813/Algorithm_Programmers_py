@@ -1,4 +1,5 @@
 # 프로그래머스
+> https://programmers.co.kr/learn/challenges?tab=algorithm_practice_kit
 
 ## 카테고리
 
@@ -45,7 +46,7 @@
 |:--:|:--:|:--:|
 |모의고사|✔️|✔️|
 |소수찾기|✔️||
-|카펫||✔️|
+|카펫|✔️|✔️|
 
 <br>
 

@@ -16,6 +16,7 @@
 #     return str(int(''.join(numbers)))
 
 
+# 1. 우선 
 from functools import cmp_to_key
 def solution(numbers):
     numbers = map(str,numbers)
