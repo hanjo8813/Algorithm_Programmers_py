@@ -13,7 +13,7 @@ def solution(new_id):
     # 4. 앞뒤 마침표 제거
     new_id = new_id.strip('.')
 
-    # 5. 빈문자열일 경우 a 추가
+    # 5. 빈문자열일 경우 a 추가 
     if not new_id :
         new_id += 'a'
 
@@ -22,10 +22,9 @@ def solution(new_id):
         new_id = new_id[:15].rstrip('.')
 
     # 7. 2자 이하일 경우 마지막 문자를 길이 3까지 반복
-    if len(new_id) <= 2:
-        last = new_id[-1]
-        while len(new_id) < 3:
-            new_id += last
+    last = new_id[-1]
+    while len(new_id) < 3:
+        new_id += last
 
     return new_id
 
