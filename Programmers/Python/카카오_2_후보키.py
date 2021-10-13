@@ -16,18 +16,13 @@ def solution(relation):
             column.append(())
             for column_idx in candidate:
                 column[i] += (relation[i][column_idx],)
-                print(column)
-            
         if len(column) == len(set(column)) :
             keys.append(candidate)
     
     # 최소성 검사
     for i, c1 in enumerate(keys):
         for c2 in keys[i+1:]:
-            c1 = set(c1)
-            c2 = set(c2)
-            if c1.issubset(c2) :
-                c2 = tuple(c2)
+            if set(c1).issubset(set(c2)) :
                 keys.remove(c2)
     answer = len(keys)
     return answer

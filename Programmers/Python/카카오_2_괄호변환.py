@@ -1,14 +1,5 @@
 def isBalance(u):
-    cnt=0
-    for x in u:
-        if x=="(" :
-            cnt+=1
-        else:
-            cnt-=1
-    if cnt == 0:
-        return True
-    else :
-        return False
+    return u.count("(") == u.count(")")
 
 def isCorrect(w):
     cnt=0
@@ -19,25 +10,28 @@ def isCorrect(w):
             cnt-=1
         if(cnt < 0):
             return False 
-    if cnt == 0:
-        return True
+    return True
 
 def split_uv(w):
-    if w == "":
+    # 1
+    if not w :
         return ""
-    u = ""
-    v = ""
+    u, v = "", ""
+    # 2
     for i, x in enumerate(w):
         u = u+x
         if isBalance(u):
             v = w[i+1:]
             break
+    # 3
     if isCorrect(u):
         v = split_uv(v)
         return u+v
+    # 4
     else:
         r = "(" + split_uv(v) + ")"
         u = list(u[1:-1])
+        # 뒤집기
         for i, x in enumerate(u):
             if x == "(":
                 u[i] = ")"
@@ -50,9 +44,18 @@ def solution(p):
     answer = split_uv(p)
     return answer
 
-p = "(()())()"
-p1 = ")("
-p2 = "()))((()"
-p3 = ")()()()()()("
 
-print(p)
+
+
+p = "(()())()"
+print(solution(p))
+
+p = ")("
+print(solution(p))
+
+p = "()))((()"
+print(solution(p))
+
+p = ")()()()()()("
+print(solution(p))
+
