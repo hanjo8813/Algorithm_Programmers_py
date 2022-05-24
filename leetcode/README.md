@@ -1,2 +1,0 @@
-# Leetcode
-> https://leetcode.com/
